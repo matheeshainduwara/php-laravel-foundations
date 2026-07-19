@@ -3,7 +3,7 @@
 $username = $_POST["username"];
 $password = $_POST["password"];
 
-if ($username == "student" && $password == "1234") {
+if ($username == "student" && $password == "12345") {
 
     header("Location: success.php");
     exit();
